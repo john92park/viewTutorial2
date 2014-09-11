@@ -21,6 +21,7 @@
 		E82EEA8819C212C200987AB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82EEA6A19C212C100987AB1 /* UIKit.framework */; };
 		E82EEA9019C212C200987AB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E82EEA8E19C212C200987AB1 /* InfoPlist.strings */; };
 		E82EEA9219C212C200987AB1 /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E82EEA9119C212C200987AB1 /* viewTutorialTests.m */; };
+		E82EEA9D19C213FA00987AB1 /* JPGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = E82EEA9C19C213FA00987AB1 /* JPGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E82EEA8D19C212C200987AB1 /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		E82EEA8F19C212C200987AB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E82EEA9119C212C200987AB1 /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		E82EEA9B19C213FA00987AB1 /* JPGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPGrid.h; sourceTree = "<group>"; };
+		E82EEA9C19C213FA00987AB1 /* JPGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				E82EEA7819C212C100987AB1 /* Main.storyboard */,
 				E82EEA7B19C212C100987AB1 /* JPViewController.h */,
 				E82EEA7C19C212C100987AB1 /* JPViewController.m */,
+				E82EEA9B19C213FA00987AB1 /* JPGrid.h */,
+				E82EEA9C19C213FA00987AB1 /* JPGrid.m */,
 				E82EEA7E19C212C100987AB1 /* Images.xcassets */,
 				E82EEA6D19C212C100987AB1 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				E82EEA7719C212C100987AB1 /* JPAppDelegate.m in Sources */,
 				E82EEA7D19C212C100987AB1 /* JPViewController.m in Sources */,
 				E82EEA7319C212C100987AB1 /* main.m in Sources */,
+				E82EEA9D19C213FA00987AB1 /* JPGrid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
